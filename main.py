@@ -6,15 +6,20 @@ welcomeScreen.geometry("600x350")
 welcomeScreen.resizable(False, False)
 welcomeScreen.title("Project Castor")
 
+def kill():
+    welcomeScreen.withdraw()
+
 
 backdrop = ctk.CTkImage(light_image=Image.open("space.jpg"),
-                                  dark_image=Image.open("space.jpg"),
-                                  size=(660, 371))
+                                  dark_image=Image.open("space.png"),
+                                  size=(600, 350))
 
 backdropSprite = ctk.CTkLabel(welcomeScreen, image=backdrop, text="")
 backdropSprite.place(x=0, y=0)
 
-title = ctk.CTkLabel(welcomeScreen, text="Welcome to", font=("Bungee Tint", 20), fg_color="transparent")
-title.place(x=100, y=100)
+
+
+enter = ctk.CTkButton(welcomeScreen, text="Start Your Journey",  font=("Bungee Tint", 15), command=kill)
+enter.place(x=200, y=190)
 
 welcomeScreen.mainloop()

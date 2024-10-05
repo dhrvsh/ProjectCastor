@@ -14,7 +14,7 @@ backdrop = ctk.CTkImage(light_image=Image.open("space.jpg"),
 backdropSprite = ctk.CTkLabel(welcomeScreen, image=backdrop, text="")
 backdropSprite.place(x=0, y=0)
 
-title = ctk.CTkLabel(welcomeScreen, text="Welcome to", font=("Bungee Tint", 20))
-title.place(x=70, y=100)
+title = ctk.CTkLabel(welcomeScreen, text="Welcome to", font=("Bungee Tint", 20), fg_color="transparent")
+title.place(x=100, y=100)
 
 welcomeScreen.mainloop()

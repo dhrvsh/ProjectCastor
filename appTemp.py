@@ -7,6 +7,7 @@ app.geometry("600x350")
 app.resizable(False, False)
 app.title("Project Castor")
 
+planets = []
 
 with open('jsonedPlanets.json', 'r') as openfile:
 
@@ -14,18 +15,17 @@ with open('jsonedPlanets.json', 'r') as openfile:
 	json_object = json.load(openfile)
 
 for i in range(100):
-    print(json_object[i]["planetName"])
-
+    planets.append(json_object[i]["planetName"])
 
 def combobox_callback(choice):
-    print("combobox dropdown clicked:", choice)
+    for i in range(100):
+        if json_object[i]["planetName"] == choice:
+            print(json_object[i])
 
-combobox = ctk.CTkComboBox(app, values=["option 1", "option 2"],
-                                     command=combobox_callback)
-combobox.set("option 2")
-
+combobox = ctk.CTkComboBox(app, values=planets, command=combobox_callback, state="readonly")
+combobox.set("Choose a planet")
 combobox.place(x=10, y=10)
 
-
+combobox["state"] = "disabled"
 
 app.mainloop()

@@ -10,22 +10,35 @@ app.title("Project Castor")
 planets = []
 
 with open('jsonedPlanets.json', 'r') as openfile:
-
-	# Reading from json file
 	json_object = json.load(openfile)
 
 for i in range(100):
     planets.append(json_object[i]["planetName"])
 
-def combobox_callback(choice):
+
+def getInfo():
+    choice = planets.get()
     for i in range(100):
         if json_object[i]["planetName"] == choice:
-            print(json_object[i])
+            info = json_object[i]
+            print(info)
+            print(type(info))
+            break
+    entry.configure(state="normal")
+    entry.delete("0.0", "end")
 
-combobox = ctk.CTkComboBox(app, values=planets, command=combobox_callback, state="readonly")
-combobox.set("Choose a planet")
-combobox.place(x=10, y=10)
+    entry.insert("0.0", "Host Name: " + str(info["hostName"]) + "\n" +  "\n" + "Number of Stars: " + str(info["starsNu"]) + "\n" +  "\n" + "Number of Planets: " + str(info["planetsNu"]) + "\n" +  "\n" + "Discovery Method: " + str(info["discMethod"]) + "\n" +  "\n" + "Discovery Year: " + str(info["discYear"]) + "\n" +  "\n" + "Discovery Facility: " + str(info["discFacility"]) + "\n" +  "\n" + "Solution Type: " + str(info["solutionType"]))
+    entry.configure(state="disabled")
 
-combobox["state"] = "disabled"
+planets = ctk.CTkComboBox(app, values=planets, width=380, state="readonly")
+planets.set("Choose a planet")
+planets.place(x=35, y=30)
+
+getInfoButton = ctk.CTkButton(app, text="Explore the planet", command=getInfo)
+getInfoButton.place(x=420, y=29)
+
+entry = ctk.CTkTextbox(app, width=530, height=250, font=(None, 15))
+entry.place(x=35, y=65)
+entry.configure(state="disabled")
 
 app.mainloop()

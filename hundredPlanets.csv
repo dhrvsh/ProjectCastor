@@ -11,11 +11,6 @@ GJ 238 b,GJ 238,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),
 GJ 238 b,GJ 238,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
 GJ 900 b,GJ 900 A,1,3,1,Imaging,2024,Multiple Observatories,Published Confirmed
 Gaia22dkvL b,Gaia22dkvL,0,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
-Gaia22dkvL b,Gaia22dkvL,0,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
-Gaia22dkvL b,Gaia22dkvL,0,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
-Gaia22dkvL b,Gaia22dkvL,0,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
-Gaia22dkvL b,Gaia22dkvL,0,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
-Gaia22dkvL b,Gaia22dkvL,0,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
 Gaia22dkvL b,Gaia22dkvL,1,1,1,Microlensing,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
 Gliese 12 b,Gliese 12,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
 Gliese 12 b,Gliese 12,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
@@ -45,24 +40,16 @@ HS Psc b,HS Psc,1,1,1,Radial Velocity,2024,McDonald Observatory,Published Confir
 ITG 15 b,ITG 15 A,1,2,1,Imaging,2024,European Space Agency (ESA) Gaia Satellite,Published Confirmed
 K2-419 A b,K2-419 A,0,2,1,Transit,2024,K2,Published Candidate
 K2-419 A b,K2-419 A,0,2,1,Transit,2024,K2,TESS Project Candidate
-K2-419 A b,K2-419 A,0,2,1,Transit,2024,K2,Published Candidate
-K2-419 A b,K2-419 A,0,2,1,Transit,2024,K2,Published Candidate
-K2-419 A b,K2-419 A,0,2,1,Transit,2024,K2,Published Candidate
 K2-419 A b,K2-419 A,1,2,1,Transit,2024,K2,Published Confirmed
 KMT-2023-BLG-0416L b,KMT-2023-BLG-0416L,1,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-0416L b,KMT-2023-BLG-0416L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
-KMT-2023-BLG-0416L b,KMT-2023-BLG-0416L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
-KMT-2023-BLG-0416L b,KMT-2023-BLG-0416L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-0469L b,KMT-2023-BLG-0469L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-0469L b,KMT-2023-BLG-0469L,1,1,1,Microlensing,2024,KMTNet,Published Confirmed
-KMT-2023-BLG-0469L b,KMT-2023-BLG-0469L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-0735L b,KMT-2023-BLG-0735L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-0735L b,KMT-2023-BLG-0735L,1,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-1431L b,KMT-2023-BLG-1431L,1,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-1431L b,KMT-2023-BLG-1431L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-1454L b,KMT-2023-BLG-1454L,1,1,1,Microlensing,2024,KMTNet,Published Confirmed
-KMT-2023-BLG-1454L b,KMT-2023-BLG-1454L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
-KMT-2023-BLG-1454L b,KMT-2023-BLG-1454L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-1454L b,KMT-2023-BLG-1454L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-1642L b,KMT-2023-BLG-1642L,1,1,1,Microlensing,2024,KMTNet,Published Confirmed
 KMT-2023-BLG-1642L b,KMT-2023-BLG-1642L,0,1,1,Microlensing,2024,KMTNet,Published Confirmed
@@ -79,23 +66,36 @@ NGTS-30 b,NGTS-30,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS
 NGTS-30 b,NGTS-30,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
 OGLE-2014-BLG-0221L b,OGLE-2014-BLG-0221L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2014-BLG-0221L b,OGLE-2014-BLG-0221L,1,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2014-BLG-0221L b,OGLE-2014-BLG-0221L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,1,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-0448L b,OGLE-2017-BLG-0448L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2017-BLG-0640L b,OGLE-2017-BLG-0640L,1,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2017-BLG-1237L b,OGLE-2017-BLG-1237L,1,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2017-BLG-1275L b,OGLE-2017-BLG-1275L,1,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-1275L b,OGLE-2017-BLG-1275L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-1275L b,OGLE-2017-BLG-1275L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
-OGLE-2017-BLG-1275L b,OGLE-2017-BLG-1275L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2017-BLG-1275L b,OGLE-2017-BLG-1275L,0,1,1,Microlensing,2024,OGLE,Published Confirmed
 OGLE-2023-BLG-0836L b,OGLE-2023-BLG-0836L,1,2,1,Microlensing,2024,OGLE,Published Confirmed
 SPECULOOS-3 b,SPECULOOS-3,1,1,1,Transit,2024,SPECULOOS Southern Observatory,Published Confirmed
 TIC 139270665 b,TIC 139270665,1,1,2,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
 TIC 139270665 c,TIC 139270665,1,1,2,Radial Velocity,2024,Lick Observatory,Published Confirmed
+TIC 241249530 b,TIC 241249530,1,2,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TIC 365102760 b,TIC 365102760,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TIC 393818343 b,TIC 393818343,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TIC 393818343 b,TIC 393818343,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TIC 46432937 b,TIC 46432937,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TIC 4672985 b,TIC 4672985,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1135 b,TOI-1135,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1135 b,TOI-1135,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1135 b,TOI-1135,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1173 b,TOI-1173,1,2,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1173 b,TOI-1173,0,2,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1173 b,TOI-1173,0,2,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1174 b,TOI-1174,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1174 b,TOI-1174,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1180 b,TOI-1180,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1180 b,TOI-1180,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1184 b,TOI-1184,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1184 b,TOI-1184,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1199 b,TOI-1199,0,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1199 b,TOI-1199,1,1,1,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1224 b,TOI-1224,0,1,2,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),TESS Project Candidate
+TOI-1224 b,TOI-1224,1,1,2,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed
+TOI-1224 c,TOI-1224,1,1,2,Transit,2024,Transiting Exoplanet Survey Satellite (TESS),Published Confirmed

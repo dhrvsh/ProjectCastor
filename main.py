@@ -8,9 +8,6 @@ welcomeScreen.title("Project Castor")
 
 def kill():
     welcomeScreen.withdraw()
-    
-
-
 
 backdrop = ctk.CTkImage(light_image=Image.open("space.jpg"),
                                   dark_image=Image.open("space.png"),

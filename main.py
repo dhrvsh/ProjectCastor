@@ -6,6 +6,7 @@ welcomeScreen = ctk.CTk()
 welcomeScreen.geometry("600x350")
 welcomeScreen.resizable(False, False)
 welcomeScreen.title("Project Castor")
+welcomeScreen.iconbitmap("icon.ico")
 
 backdrop = ctk.CTkImage(light_image=Image.open("space.png"),
                                   dark_image=Image.open("space.png"),
@@ -21,6 +22,7 @@ def kill():
     app.geometry("600x350")
     app.resizable(False, False)
     app.title("Project Castor")
+    app.iconbitmap("icon.ico")
 
     planets = []
 

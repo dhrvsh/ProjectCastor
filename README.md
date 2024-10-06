@@ -13,8 +13,7 @@ pip install customtkinter
 
 ## Showcase
 
-
-
+[YouTube Link](https://youtu.be/xcf_VEY2cM4)
 
 ## Credits
 

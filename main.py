@@ -1,7 +1,6 @@
 import customtkinter as ctk
 from PIL import Image
 import json
-import sys
 
 welcomeScreen = ctk.CTk()
 welcomeScreen.geometry("600x350")

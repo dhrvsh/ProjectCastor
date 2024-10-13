@@ -1,4 +1,4 @@
-# Project Castor
+# Project Castor [UN-UPDATED README]
 
 We attempted the challenge of 'Chronicles of Exoplanet Exploration'. We compiled the latest 100 exoplanets discovered and their information from NASA Exoplanet Archive and took inspiration from HackAnExoplanet's interface. We then coded this in Python where we made an app to select an exoplanet and instantly receive information about it.
 

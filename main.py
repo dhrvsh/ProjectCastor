@@ -32,23 +32,26 @@ font = pygame.font.Font(None, 36)
 # Create a flag to indicate if a collision has occurred
 collision_flag = False
 
+resetScreen = True
+
 while True:
-    screen.fill((0, 0, 0))
-    screen.blit(backdrop, (0, 0))
+    if resetScreen == True:
+        screen.fill((0, 0, 0))
+        screen.blit(backdrop, (0, 0))
 
-    screen.blit(planetA, (100, 50))
-    screen.blit(planetB, (800, 300))
-    screen.blit(planetC, (200, 600))
-    screen.blit(planetD, (1500, 50))
-    screen.blit(planetE, (1400, 650))
+        screen.blit(planetA, (100, 50))
+        screen.blit(planetB, (800, 300))
+        screen.blit(planetC, (200, 600))
+        screen.blit(planetD, (1500, 50))
+        screen.blit(planetE, (1400, 650))
 
-    screen.blit(ship, (shipx, shipy))
-    if abs(motion[0]) < 0.1:
-        motion[0] = 0
-    if abs(motion[1]) < 0.1:
-        motion[1] = 0
-    shipx += motion[0] * 10
-    shipy += motion[1] * 10
+        screen.blit(ship, (shipx, shipy))
+        if abs(motion[0]) < 0.1:
+            motion[0] = 0
+        if abs(motion[1]) < 0.1:
+            motion[1] = 0
+        shipx += motion[0] * 10
+        shipy += motion[1] * 10
 
     # Check for collision with each planet
     if shipx + 64 >= 100 and shipx <= 400 and shipy + 64 >= 50 and shipy <= 350:
@@ -70,6 +73,10 @@ while True:
     elif shipx + 64 >= 1400 and shipx <= 1700 and shipy + 64 >= 650 and shipy <= 950:
         collision_flag = True
         planetTouched = "E"
+    else:
+        collision_flag = False
+        resetScreen = True
+        planetTouched = ""
         
 
     for event in pygame.event.get():
@@ -78,8 +85,15 @@ while True:
             if event.type == pygame.JOYBUTTONDOWN:
                 buttonID = event.button
                 if buttonID == 0:
-                
-                    print(planetTouched)
+                    screen.fill((0, 0, 0))
+                    resetScreen = False
+
+        if collision_flag:
+            if event.type == pygame.JOYBUTTONDOWN:
+                buttonID = event.button
+                if buttonID == 5:
+                    screen.fill((0, 0, 0))
+                    resetScreen = True
 
 
         if event.type == JOYAXISMOTION:
